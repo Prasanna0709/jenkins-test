@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-        stage ('Jar file creation){
+        stage ('Jar file creation'){
             steps{
                bat "mvn clean package"
             }
